@@ -1,0 +1,56 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-tutorialweb-dev-132344-authRole",
+      "UnauthRoleArn": "arn:aws:iam::316390397303:role/amplify-tutorialweb-dev-132344-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::316390397303:role/amplify-tutorialweb-dev-132344-authRole",
+      "Region": "eu-west-3",
+      "DeploymentBucketName": "amplify-tutorialweb-dev-132344-deployment",
+      "UnauthRoleName": "amplify-tutorialweb-dev-132344-unauthRole",
+      "StackName": "amplify-tutorialweb-dev-132344",
+      "StackId": "arn:aws:cloudformation:eu-west-3:316390397303:stack/amplify-tutorialweb-dev-132344/bc261a40-17d5-11ed-b306-0a5881b7b99e",
+      "AmplifyAppId": "d1erc7k8e5wd5b"
+    }
+  },
+  "auth": {
+    "tutorialweb09345c75": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-tutorialweb-dev-132344-deployment/amplify-cfn-templates/auth/tutorialweb09345c75-cloudformation-template.json",
+        "logicalId": "authtutorialweb09345c75"
+      },
+      "lastPushTimeStamp": "2022-08-09T11:34:34.705Z",
+      "output": {
+        "UserPoolId": "eu-west-3_BUTNoR4Uj",
+        "AppClientIDWeb": "2kcd76tm2jt5h9q2ih86da7k7d",
+        "AppClientID": "3qv5jnai6794mtfmeo86l6ta2t",
+        "IdentityPoolId": "eu-west-3:1d2755dd-433e-4c52-b811-f99fbdd28a2f",
+        "UserPoolArn": "arn:aws:cognito-idp:eu-west-3:316390397303:userpool/eu-west-3_BUTNoR4Uj",
+        "IdentityPoolName": "tutorialweb09345c75_identitypool_09345c75__dev",
+        "UserPoolName": "tutorialweb09345c75_userpool_09345c75"
+      },
+      "lastPushDirHash": "yY23jhQIFbeGsC6YBJNcNBiwx3E="
+    }
+  }
+}
